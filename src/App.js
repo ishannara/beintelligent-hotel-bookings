@@ -8,7 +8,7 @@ import { Gallery } from "./pages/Gallery";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import ToolBar from "./TooBar";
+// import ToolBar from "./TooBar";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/toolbar" element={<ToolBar />} />
+          {/* <Route path="/toolbar" element={<ToolBar />} /> */}
         </Routes>
       </BrowserRouter>
     </>
